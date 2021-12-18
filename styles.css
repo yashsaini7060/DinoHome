@@ -54,8 +54,27 @@ footer {
     margin: 0 5px;
   }
   
-  
+  .backimage{
+   position: relative;
+   text-align: center;
+   color: whitesmoke;
+  }
+  #text_on_back{
+    position: absolute;
+    
+    top: 40%;
+    left: 39%;
 
+  }
+
+@media screen and (max-width:600px) {
+
+  #text_on_back{
+    position: absolute;
+    top: 42%;
+    left: 16%;
+  }
+}
   .row {
     display: -ms-flexbox; /* IE10 */
     display: flex;
